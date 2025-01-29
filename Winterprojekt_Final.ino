@@ -18,8 +18,8 @@
 
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(STRIPSIZE, LED_PIN, NEO_GRB + NEO_KHZ800);
 
-const char *ssid = "FRITZ!Box 7530 YX";
-const char *password = "17858412786313066094";
+const char *ssid = "Wlan Name";
+const char *password = "PassWord";
 
 // Zeitverschiebung UTC <-> MEZ (Winterzeit) = 3600 Sekunden (1 Stunde)
 // Zeitverschiebung UTC <-> MEZ (Sommerzeit) = 7200 Sekunden (2 Stunden)
